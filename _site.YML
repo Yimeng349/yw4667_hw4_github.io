@@ -1,4 +1,4 @@
-name: "Yay internet!"
+name: "yw4667-hw4"
 output_dir: "."
 navbar:
   title: "Home"
@@ -21,6 +21,8 @@ navbar:
     - icon: fa-utility fa-semibold fa-camera
       text: "Instagram"
       href: https://www.instagram.com/1mengw349?igsh=ajY6bXY0dDhyNHk5&utm_source=qr
+    - text: "problem 2 data visualization"
+      href: plotly_hw4.html
 output:
   html_document:
     theme: flatly

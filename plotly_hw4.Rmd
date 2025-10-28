@@ -1,0 +1,95 @@
+---
+title: "Plotly_instacart"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: flatly
+    navbar:
+      - { title: "Home", href: "index.html", align: right }
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(tidyverse)
+library(p8105.datasets)
+
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+### Chart A
+
+```{r}
+instacart |>
+  count(aisle, name = "items_ordered") |>
+  arrange(desc(items_ordered)) |>
+  head(20) |>
+  mutate(aisle = fct_reorder(aisle, items_ordered)) |>
+  plot_ly(
+    x = ~items_ordered,
+    y = ~aisle,
+    type = "bar",
+    orientation = 'h',
+    marker = list(color = 'coral')
+  ) |>
+  layout(
+    xaxis = list(title = "Number of Items Ordered"),
+    yaxis = list(title = "Aisle")
+  )
+```
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart |>
+  group_by(order_dow, order_hour_of_day) |>
+  summarize(n_orders = n(), .groups = "drop") |>
+  mutate(order_dow = factor(order_dow, 
+                             levels = 0:6,
+                             labels = c("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"))) |>
+  plot_ly(
+    x = ~order_hour_of_day,
+    y = ~n_orders,
+    color = ~order_dow,
+    type = "scatter",
+    mode = "lines"
+  ) |>
+  layout(
+    xaxis = list(title = "Hour of Day"),
+    yaxis = list(title = "Number of Orders"),
+    legend = list(title = list(text = "Day"))
+  )
+```
+
+### Chart C
+
+```{r}
+
+instacart |>
+  group_by(order_hour_of_day) |>
+  summarize(
+    reorder_rate = mean(reordered),
+    n_orders = n()
+  ) |>
+  plot_ly(
+    x = ~order_hour_of_day, 
+    y = ~reorder_rate,
+    type = "scatter",
+    mode = "markers",
+    marker = list(
+      size = ~n_orders/5000,
+      color = 'steelblue',
+      opacity = 0.6
+    )
+  ) |>
+  layout(
+    xaxis = list(title = "Hour of Day"),
+    yaxis = list(title = "Reorder Rate")
+  )
+```
