@@ -1,0 +1,30 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - icon: fa-utility fa-semibold fa-house
+      text: "Home"
+      href: index.html
+    - icon: fa-utility fa-semibold fa-circle-user
+      text: "About Yimeng Wang"
+      href: resume.html
+    - icon: fa-utility fa-semibold fa-users
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/yimeng-wang-4703a2383/
+    - icon: fa-utility fa-semibold fa-envelope
+      text: "Email"
+      href: mailto:yw4667@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      text: "Github"
+      href: http://github.com/Yimeng349/
+    - icon: fa-utility fa-semibold fa-camera
+      text: "Instagram"
+      href: https://www.instagram.com/1mengw349?igsh=ajY6bXY0dDhyNHk5&utm_source=qr
+output:
+  html_document:
+    theme: flatly
+    toc: true
+    toc_float: 
+      collapsed: false
+      smooth_scroll: true

@@ -1,0 +1,40 @@
+---
+title: "Yimeng's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+
+![](IMG_4818.jpg)
+
+*This is Yimeng's awesome website!*
+*Some basic informations about Yimeng are as belows:*
+
+## Education
+
+ - *Columbia University: M.S. Biostatistics (Data Science) | 09/2025-05/2027*
+
+ - *Beijing Normal University: B.Eng. Ecological Engineering of Environment | 09/2021-06/2025*
+
+## Research Experiences
+
+ - *Response of Soil Microbial Communities to Oil Drilling Lubricant Leachate*
+
+ - *Cadmium Contamination and Microbial Network Stability*
+
+ - *Presence of Commonly Used Drugs in Beijing Wastewater Treatment Plants*
+
+## More details
+
+*Get to know about Yimeng in [HERE](resume.html)*
+
+## Contact
+
+*Please feel free to connect with me:*
+
+- 💼 [LinkedIn(Yimeng Wang)](https://www.linkedin.com/in/yimeng-wang-4703a2383/)
+- 📧 [Email(yw4667@cumc.columbia.edu)](mailto:yw4667@cumc.columbia.edu)
+- 🐙 [GitHub(Yimeng349)](http://github.com/yimeng349/)
+- 📸 [Instagram(Yimeng Wang)](https://www.instagram.com/1mengw349?igsh=ajY6bXY0dDhyNHk5&utm_source=qr)
