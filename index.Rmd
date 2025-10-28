@@ -17,7 +17,7 @@ output:
 
 ## Education
 
- - *Columbia University: M.S. Biostatistics (Data Science) | 09/2025-05/2027*
+- *Columbia University: M.S. Biostatistics (Data Science) | 09/2025-05/2027*
 
  - *Beijing Normal University: B.Eng. Ecological Engineering of Environment | 09/2021-06/2025*
 
