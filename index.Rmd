@@ -7,9 +7,12 @@ output:
     theme: flatly
 ---
 
-![](IMG_4818.jpg)
+![](IMG_4818.jpg){width=300px}
 
-*This is Yimeng's awesome website!*
+<div style="text-align: font-size: 12px; font-weight: 600; color: #34495e; margin: 30px 0; font-family: 'Georgia', serif;">
+✨ This is Yimeng Wang's awesome website! ✨
+</div>
+
 *Some basic informations about Yimeng are as belows:*
 
 ## Education

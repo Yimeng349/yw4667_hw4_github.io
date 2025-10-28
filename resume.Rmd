@@ -9,7 +9,7 @@ Here're some Yimeng Wang's  Wonderful Academic and Professional Experiences：
 
 ## Yimeng Wang
 
-![](IMG_4802.jpg)
+![](IMG_4802.jpg){width=300px}
 
 ## EDUCATION
 
