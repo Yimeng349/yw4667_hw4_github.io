@@ -37,7 +37,7 @@ Here're some Yimeng Wang's  Wonderful Academic and Professional Experiences：
 
 ▸**Presence of Commonly Used Drugs in Beijing Wastewater Treatment Plants** | 12/2022–05/2024
 
-*Developed a validated LC-MS/MS method (93-133% recovery) to quantify 11 drugs in 64 wastewater samples; performed time-series analysis in R and ecological risk assessment, identifying a high risk of ibuprofen to algae (RQ ≈ 1.7).*
+*Developed a validated LC-MS/MS method (93-133% recovery) to quantify 11 drugs in 64 wastewater samples; performed time-series analysis and ecological risk assessment, identifying a high risk of ibuprofen to algae (RQ ≈ 1.7).*
 
 ## INTERNSHIP
 
