@@ -47,17 +47,17 @@ Here're some Yimeng Wang's  Wonderful Academic and Professional Experiences：
 
 ## AWARDS
 
- - *Meritorious Winner: Mathematical Contest in Modeling (MCM)* | 02/2024
+*Meritorious Winner: Mathematical Contest in Modeling (MCM)* | 02/2024
 
- - *Multiple Merit Scholarships: Beijing Normal University* | 2021-2025
+*Multiple Merit Scholarships: Beijing Normal University* | 2021-2025
 
 ## SKILLS
 
-✓ **Tools**
+**Tools**
 
 *R (tidyverse, ggplot2, dplyr), Java (basic), SPSS, Excel*
 
-✓ **Statistical methods**
+**Statistical methods**
 
 *regression, hypothesis testing, time-series analysis, biostatistics, ecological risk assessment*
 
