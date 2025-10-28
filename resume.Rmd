@@ -53,11 +53,11 @@ Here're some Yimeng Wang's  Wonderful Academic and Professional Experiences：
 
 ## SKILLS
 
-✓ **Tools:**
+✓ **Tools**
 
 *R (tidyverse, ggplot2, dplyr), Java (basic), SPSS, Excel*
 
-✓ **Statistical methods:**
+✓ **Statistical methods**
 
 *regression, hypothesis testing, time-series analysis, biostatistics, ecological risk assessment*
 

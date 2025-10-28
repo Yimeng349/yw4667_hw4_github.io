@@ -13,7 +13,7 @@ output:
 ✨ This is Yimeng Wang's awesome website! ✨
 </div>
 
-*Some basic informations about Yimeng are as belows:*
+*Some basic informations about Yimeng are as belows*
 
 ## Education
 
